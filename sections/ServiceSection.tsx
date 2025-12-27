@@ -77,38 +77,9 @@ export default function MinaNailStudio() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-rose-50">
+    <div className="min-h-screen bg-white">
       {/* Navigation */}
       
-
-      
-      {/* Features Grid */}
-      {/* <section className="py-16 px-6 bg-white/30">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-rose-400 font-medium mb-2">WELCOME TO MINA NAIL</p>
-            <h2 className="text-4xl font-serif font-bold text-gray-800">Trí tuệ AI ghi nhớ phong cách của bạn</h2>
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              Hệ thống Arthil AI ghi nhớ lại mỗi lần trải nghiệm và gợi ý những mẫu họa phẩm nổi bật, và nhắc lịch khi bạn cần chăm sóc chính mình. Đây là điều chưa một lần nào có ở Việt Nam.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {features.map((feature, idx) => (
-              <div 
-                key={idx}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition text-center border border-rose-50"
-              >
-                <div className="w-16 h-16 bg-gradient-to-br from-rose-100 to-pink-100 rounded-full flex items-center justify-center mx-auto mb-4 text-rose-400">
-                  {feature.icon}
-                </div>
-                <h3 className="font-serif font-bold text-gray-800 mb-2">{feature.title}</h3>
-                <p className="text-sm text-gray-600">{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
 
       {/* Services Section */}
       <section id="services" className="py-20 px-6">
@@ -122,7 +93,7 @@ export default function MinaNailStudio() {
             {services.map((service, idx) => (
               <div 
                 key={idx}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:border-[#C9A39A] transition transform hover:-translate-y-2 border border-rose-50 "
+                className={`${service.badge ? 'bg-gradient-to-b from-white to-[#FCEEF3]' : 'bg-white'} rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:border-[#C9A39A] transition transform hover:-translate-y-2 border border-rose-50 `}
               >
                 {service.badge && ( 
                   <div className=" bg-[#C9A39A] text-white text-xs px-3 py-1 w-24 rounded-full my-5">
@@ -154,17 +125,7 @@ export default function MinaNailStudio() {
         </div>
       </section>
 
-      {/* Quote Section */}
-      <section className="py-20 px-6 bg-gradient-to-r from-rose-100 via-pink-50 to-rose-100">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="w-16 h-1 bg-gradient-to-r from-rose-300 to-pink-400 mx-auto mb-8"></div>
-          <blockquote className="text-3xl md:text-4xl font-serif italic text-gray-800 leading-relaxed">
-            Nail đẹp không chỉ là màu – đó là cảm xúc.
-          </blockquote>
-          <div className="w-16 h-1 bg-gradient-to-r from-rose-300 to-pink-400 mx-auto mt-8"></div>
-        </div>
-      </section>
-
+ 
       {/* Why Choose Us */}
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
@@ -188,39 +149,7 @@ export default function MinaNailStudio() {
         </div>
       </section>
 
-      {/* Gallery Preview */}
-      <section id="gallery" className="py-20 px-6 bg-white/30">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-serif font-bold text-gray-800 mb-4">Gallery</h2>
-            <p className="text-gray-600">Những tác phẩm đẹp từ Mina Nail</p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
-              <div key={i} className="aspect-square rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:scale-105">
-                <img 
-                  src={`https://images.unsplash.com/photo-${1600000000000 + i * 10000000}?w=400&q=80`}
-                  alt={`Nail design ${i}`}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 px-6 bg-gradient-to-r from-rose-400 to-pink-400">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          <h2 className="text-4xl font-serif font-bold mb-4">Sẵn sàng trải nghiệm?</h2>
-          <p className="text-xl mb-8 opacity-90">Đặt lịch ngay hôm nay và khám phá sự khác biệt</p>
-          <button className="bg-white text-rose-400 px-10 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transition transform hover:scale-105">
-            Đặt Lịch Ngay
-          </button>
-        </div>
-      </section>
-
+  
   
     </div>
   );

@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import GallerySection from "@/sections/GallerySection";
 import HeroSection from "@/sections/HeroSection";
 import PrivateSection from "@/sections/PrivateSection";
 import ServiceSection from "@/sections/ServiceSection";
@@ -17,6 +18,7 @@ export default function Home() {
       <PrivateSection />
       <ServiceSection/>
       <SignatureSection/>
+      <GallerySection/>
       <Footer />     
     </div>
   );
