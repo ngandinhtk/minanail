@@ -1,7 +1,10 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import BookingSection from "@/sections/BookingSection";
+import CustomerSection from "@/sections/CustomerSection";
 import GallerySection from "@/sections/GallerySection";
 import HeroSection from "@/sections/HeroSection";
+import LocationSection from "@/sections/LocationSection";
 import PrivateSection from "@/sections/PrivateSection";
 import ServiceSection from "@/sections/ServiceSection";
 import SignatureSection from "@/sections/SignatureSection";
@@ -19,6 +22,9 @@ export default function Home() {
       <ServiceSection/>
       <SignatureSection/>
       <GallerySection/>
+      <CustomerSection/>
+      <BookingSection/>
+      <LocationSection/>
       <Footer />     
     </div>
   );

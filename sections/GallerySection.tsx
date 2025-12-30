@@ -25,10 +25,10 @@ export default function GallerySection() {
             <p className="text-gray-600">Những tác phẩm đẹp từ Mina Nail</p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-            {...galleries.map((gallery) => (
-              <div key={gallery.id} className="aspect-square rounded-xl overflow-hidden  hover:shadow-2xl transition transform hover:scale-105">
-                <Image src={gallery.image} alt="Gallery" className="w-full h-full object-cover" />
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {galleries.map((gallery) => (
+              <div key={gallery.id} className="relative aspect-square rounded-xl overflow-hidden transition transform hover:scale-105">
+                <Image src={gallery.image} alt="Gallery" fill className="object-cover" sizes="(max-width: 768px) 50vw, 33vw" />
               </div>
             ))}
           </div>

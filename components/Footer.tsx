@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function Footer(){
     return(
         <div>
-              <footer className="bg-gradient-to-r from-[#FCEEF3] to-[#F7EBEE] border-t border-gray-200 py-12 px-8">
+              <footer className="bg-gradient-to-b from-[#FCEEF3] to-[#F7EBEE] border-t border-gray-200 py-12 px-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
@@ -51,7 +51,7 @@ export default function Footer(){
                   <p>@minanalprivate</p>
                 </div>
                 <div className="w-[300px]">
-                   <button className="group bg-gradient-to-r from-[#C9A39A] to-[#E7D3CC] text-white px-8 py-4 rounded-lg shadow-lg text-lg font-medium hover:shadow-2xl transition transform hover:scale-105 flex items-center space-x-2">
+                   <button className="group bg-gradient-to-b from-[#C9A39A] to-[#E7D3CC] text-white px-8 py-4 rounded-lg shadow-lg text-lg font-medium hover:shadow-2xl transition transform hover:scale-105 flex items-center space-x-2">
                 <span>Đặt Lịch Ngay</span>
                 {/* <ChevronRight className="group-hover:translate-x-1 transition" /> */}
               </button>

@@ -106,7 +106,7 @@ export default function MinaNailStudio() {
                   <span className="text-sm text-gray-500">• {service.duration}</span>
                 </div>
                 <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                {/* <button className="w-full bg-gradient-to-r from-rose-300 to-pink-400 text-white py-2 rounded-lg hover:shadow-lg transition">
+                {/* <button className="w-full bg-gradient-to-b from-rose-300 to-pink-400 text-white py-2 rounded-lg hover:shadow-lg transition">
                   Đặt lịch
                 </button> */}
               </div>

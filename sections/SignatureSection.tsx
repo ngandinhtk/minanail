@@ -42,7 +42,7 @@ export default function SignatureSection() {
                 className="bg-white rounded-2xl p-6  hover:shadow-xl transition text-left"
               >
                 <div className="w-12 h-12 bg-[#F7EBEE] rounded-full flex items-center justify-center mb-4 text-rose-400">
-                  <span className="text-[#111111] w-8 h-8 flex items-center justify-center"> {feature.icon}</span>
+                  <span className="text-[#111111] text-2xl w-8 h-8 flex items-center justify-center"> {feature.icon}</span>
                 </div>
                 <h3 className="font-serif font-bold text-gray-800 mb-2">{feature.title}</h3>
                 <p className="text-sm text-gray-600">{feature.description}</p>

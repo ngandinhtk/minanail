@@ -48,7 +48,7 @@ export default function PrivateSection() {
           </div>
 
 
-        <div className="text-center bg-gradient-to-r from-[#FCEEF3] to-[#F7EBEE] px-8 py-6 rounded-lg mt-12 mb-16">
+        <div className="text-center bg-gradient-to-b from-[#FCEEF3] to-[#F7EBEE] px-8 py-6 rounded-lg mt-12 mb-16">
             <div>
                <div className="flex justify-center items-center gap-2 border border-[#C9A39A] text-[#C9A39A] p-2 mx-auto rounded-full w-64 mb-4"><span  className="text-yellow"><Sparkles/> </span> <span> Powered by AIHUB OS</span></div>
               <h2 className="text-3xl font-serif font-bold text-gray-800 mb-4">Trí tuệ AI ghi nhớ phong cách của bạn</h2>

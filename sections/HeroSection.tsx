@@ -20,7 +20,7 @@ export default function HeroSection() {
               </h2>
               
               <p className="text-xl text-gray-600 font-light">
-                Không gian riêng tư – Sang trọng – 1:1 dành cho bạn
+                Không gian riêng tư – Sang trọng – 1:1 <br/>dành cho bạn
               </p>
 
               <div className=" p-6 ">
@@ -29,21 +29,21 @@ export default function HeroSection() {
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-[#C9A39A] rounded-full mt-2"></div>
-                    <p className="text-gray-700">Chỉ 1 khách trong không gian</p>
+                    {/* <div className="w-2 h-2 bg-[#C9A39A] rounded-full mt-2"></div> */}
+                    <span className='text-[#C9A39A]'>✦</span><p className="text-gray-700">Chỉ 1 khách trong không gian</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-[#C9A39A] rounded-full mt-2"></div>
-                    <p className="text-gray-700">Ánh sáng đẹp tự nhiên</p>
+                    {/* <div className="w-2 h-2 bg-[#C9A39A] rounded-full mt-2"></div> */}
+                    <span className='text-[#C9A39A]'>✦</span><p className="text-gray-700">Ánh sáng đẹp tự nhiên</p>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-[#C9A39A] rounded-full mt-2"></div>
-                    <p className="text-gray-700">Sạch tinh tế – im lặng – thư thái</p>
+                    {/* <div className="w-2 h-2 bg-[#C9A39A] rounded-full mt-2"></div> */}
+                    <span className='text-[#C9A39A]'>✦</span><p className="text-gray-700">Sạch tinh tế – im lặng – thư thái</p>
                   </div>
                 </div>
               </div>
 
-              <button className="group bg-gradient-to-r from-[#C9A39A] to-[#E7D3CC] text-white px-8 py-4 rounded-lg shadow-lg text-lg font-medium hover:shadow-2xl transition transform hover:scale-105 flex items-center space-x-2">
+              <button className="group bg-gradient-to-b from-[#C9A39A] to-[#E7D3CC] text-white px-8 py-4 rounded-lg shadow-lg text-lg font-medium hover:shadow-2xl transition transform hover:scale-105 flex items-center space-x-2">
                 <span>Đặt Lịch Ngay</span>
                 {/* <ChevronRight className="group-hover:translate-x-1 transition" /> */}
               </button>
